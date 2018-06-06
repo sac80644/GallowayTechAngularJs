@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="testApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="test.js"></script>
+  </head>
+
+  <!-- <body ng-controller="TestController"> -->
+  <body ng-controller="HttpTestController">
+
+    <p>{{PageTitle}}</p>
+
+    <ul>
+      <li ng-repeat="photo in photos">
+        <p>Photo:  {{photo.Name}}</p>
+      </li>
+    </ul>
+
+  </body>
+</html>

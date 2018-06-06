@@ -1,0 +1,86 @@
+[
+    {
+        "PhotoID": 1,
+        "AlbumID": 1,
+        "Caption": "I Didn't Do It",
+        "FileName": "I Didn't Do It.jpg",
+        "DirectoryName": "gallowaytechAngularJs\\Photos\\Full",
+        "FullPath": "",
+        "URL": "Photos/Full/I Didn't Do It.jpg",
+        "Size": "Full",
+        "DateCreated": "2018-06-04T20:44:18.08",
+        "DateUpdated": "2018-06-04T22:27:02.377"
+    },
+    {
+        "PhotoID": 2,
+        "AlbumID": 1,
+        "Caption": "Running",
+        "FileName": "Running.jpg",
+        "DirectoryName": "gallowaytechAngularJs\\Photos\\Full",
+        "FullPath": "",
+        "URL": "Photos/Full/Running.jpg",
+        "Size": "Full",
+        "DateCreated": "2018-06-04T20:44:18.08",
+        "DateUpdated": "2018-06-04T22:27:02.377"
+    },
+    {
+        "PhotoID": 3,
+        "AlbumID": 1,
+        "Caption": "Handout",
+        "FileName": "Handout.jpg",
+        "DirectoryName": "gallowaytechAngularJs\\Photos\\Full",
+        "FullPath": "",
+        "URL": "Photos/Full/Handout.jpg",
+        "Size": "Full",
+        "DateCreated": "2018-06-04T20:44:18.08",
+        "DateUpdated": "2018-06-04T22:27:02.377"
+    },
+    {
+        "PhotoID": 4,
+        "AlbumID": 1,
+        "Caption": "My Couch",
+        "FileName": "My Couch.jpg",
+        "DirectoryName": "gallowaytechAngularJs\\Photos\\Full",
+        "FullPath": "",
+        "URL": "Photos/Full/My Couch.jpg",
+        "Size": "Full",
+        "DateCreated": "2018-06-04T20:44:18.08",
+        "DateUpdated": "2018-06-04T22:27:02.377"
+    },
+    {
+        "PhotoID": 5,
+        "AlbumID": 1,
+        "Caption": "Our Mascot Buddy",
+        "FileName": "Our Mascot Buddy.jpg",
+        "DirectoryName": "gallowaytechAngularJs\\Photos\\Full",
+        "FullPath": "",
+        "URL": "Photos/Full/Our Mascot Buddy.jpg",
+        "Size": "Full",
+        "DateCreated": "2018-06-04T20:44:18.08",
+        "DateUpdated": "2018-06-04T22:27:02.377"
+    },
+    {
+        "PhotoID": 6,
+        "AlbumID": 1,
+        "Caption": "Friends",
+        "FileName": "Friends.jpg",
+        "DirectoryName": "gallowaytechAngularJs\\Photos\\Full",
+        "FullPath": "",
+        "URL": "Photos/Full/Friends.jpg",
+        "Size": "Full",
+        "DateCreated": "2018-06-04T20:44:18.08",
+        "DateUpdated": "2018-06-04T22:27:02.377"
+    },
+    {
+        "PhotoID": 7,
+        "AlbumID": 1,
+        "Caption": "Running Around the Deck",
+        "FileName": "Running Around the Deck.jpg",
+        "DirectoryName": "gallowaytechAngularJs\\Photos\\Full",
+        "FullPath": "",
+        "URL": "Photos/Full/Running Around the Deck.jpg",
+        "Size": "Full",
+        "DateCreated": "2018-06-04T20:44:18.08",
+        "DateUpdated": "2018-06-04T22:27:02.377"
+    }
+]

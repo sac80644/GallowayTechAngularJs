@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" ng-app="gallowayTechApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="app.animations.css" />
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+
+    <!--Note that files defining a module (i.e. .module.js) need to be included before other files that add features (e.g. components, controllers, services, filters) to that module. -->
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="app.animations.js"></script>
+    <script src="photo-list/photo-list.module.js"></script>
+    <script src="photo-list/photo-list.component.js"></script>
+    <script src="photo-detail/photo-detail.module.js"></script>
+    <script src="photo-detail/photo-detail.component.js"></script>
+  </head>
+  <body>
+
+    <!--using views-->
+    <div ng-view></div>
+
+    <!-- Use a custom component to render a list of photos -->
+    <!-- <photo-list></photo-list> -->
+
+  </body>
+</html>

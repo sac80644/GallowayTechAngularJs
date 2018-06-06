@@ -1,0 +1,19 @@
+{
+  "name": "gallowaytechangularjs",
+  "version": "1.0.0",
+  "description": "Angular JS Portion of GallowayTech.com",
+  "main": "index.html",
+  "author": "Jason Galloway",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "bower": "^1.7.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server ./app -a localhost -p 8080 -c-1"
+  }
+}

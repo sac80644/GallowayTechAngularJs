@@ -1,0 +1,17 @@
+
+<div class="photo-images">
+    <img ng-src="{{photo.URL}}" class="photo"
+        ng-class="{selected: photo.URL === $ctrl.mainImageUrl}"
+        ng-repeat="photo in $ctrl.photos" />
+  </div>
+
+<h1>{{$ctrl.photo.FileName}}</h1>
+
+<p>{{$ctrl.photo.Caption}}</p>
+
+<ul class="photo-thumbs">
+  <li ng-repeat="photo in $ctrl.photos">
+      <img ng-src="{{photo.URL}}" ng-click="$ctrl.setImage(photo.URL)" />
+      <p>{{photo.Caption}}</p>
+  </li>
+</ul>

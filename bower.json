@@ -1,0 +1,17 @@
+{
+  "name": "gallowaytechangularjs",
+  "description": "Angular JS Portion of GallowayTech.com",
+  "version": "1.0.0",
+  "homepage": "http://gallowaytech.com/gallowaytechangularjs",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.7.x",
+    "angular-animate": "1.7.x",
+    "angular-mocks": "1.7.x",
+    "angular-resource": "1.7.x",
+    "angular-route": "1.7.x",
+    "bootstrap": "3.3.x",
+    "jquery": "3.3.x"
+  }
+}
