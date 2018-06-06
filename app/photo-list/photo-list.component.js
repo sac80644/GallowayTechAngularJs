@@ -9,7 +9,9 @@ angular.
       var self = this;
       self.orderProp = 'Age';
 
-      $http.get('photos/photos.json').then(function(response) {
+      //uncomment and use for local test and development
+      // $http.get('photos/photos.json').then(function(response) {
+      $http.get('http://gallowaytech.com/gallowaytechwebapi/api/Photos/Thumb').then(function(response) {
         self.photos = response.data;
       });
     }]

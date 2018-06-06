@@ -13,7 +13,9 @@ angular.
           self.mainImageUrl = imageUrl;
         };
 
-        $http.get('photos/Album_' + $routeParams.photoId + '.json').then(function(response) {
+        //uncomment and use for local test and development
+        // $http.get('photos/Album_' + $routeParams.AlbumID + '.json').then(function(response) {
+        $http.get('http://gallowaytech.com/gallowaytechwebapi/api/album/' + $routeParams.AlbumID).then(function(response) {
             self.photos = response.data;
             self.setImage(self.photos[0].URL);
         });

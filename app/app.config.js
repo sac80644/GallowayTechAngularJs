@@ -10,7 +10,7 @@ angular.
         when('/photos', {
           template: '<photo-list></photo-list>'
         }).
-        when('/photos/:photoId', {
+        when('/photos/:AlbumID', {
           template: '<photo-detail></photo-detail>'
         }).
         when('/photos/test', {
