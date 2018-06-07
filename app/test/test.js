@@ -1,7 +1,7 @@
 'use strict';
 
 // Define the module
-var testApp = angular.module('testApp', []);
+var testApp = angular.module('testApp', ['core.photo', 'core.album']);
 
 // Define the controller on the `testApp` module
 testApp.controller('TestController', function TestController($scope) {
@@ -42,3 +42,24 @@ testApp.controller('HttpTestController', ['$scope', '$http', function HttpTestCo
     });
 
 }]);
+
+
+testApp.controller('PhotoController', ['$scope', 'Photo',
+      function PhotoListController($scope, Photo) {
+
+        $scope.PageTitle = 'Photo Test Controller';
+
+        $scope.photos = Photo.query();
+        
+      }]);
+
+testApp.controller('AlbumController', ['$scope', 'Album',
+      function PhotoListController($scope, Album) {
+
+        $scope.PageTitle = 'Album Test Controller';
+        
+        //use query without passing parameters
+        // $scope.photos = Album.query();
+        $scope.photos = Album.get({albumId: 2});
+        
+      }]);

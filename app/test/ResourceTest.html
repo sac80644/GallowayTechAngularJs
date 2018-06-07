@@ -12,14 +12,14 @@
     <script src="../core/photo/photo.service.js"></script>
   </head>
 
-  <!-- <body ng-controller="TestController"> -->
-  <body ng-controller="PhotoController">
+  <!-- <body ng-controller="PhotoController"> -->
+  <body ng-controller="AlbumController">
 
     <p>{{PageTitle}}</p>
 
     <ul>
       <li ng-repeat="photo in photos">
-        <p>Photo:  {{photo.Name}}</p>
+        <p>Photo:  {{photo}}</p>
       </li>
     </ul>
 

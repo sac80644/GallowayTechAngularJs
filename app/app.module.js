@@ -4,6 +4,6 @@
 angular.module('gallowayTechApp', [
   'ngAnimate',
   'ngRoute',
-  'photoDetail',
+  'photoAlbum',
   'photoList'
 ]);

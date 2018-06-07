@@ -11,7 +11,7 @@ angular.
           template: '<photo-list></photo-list>'
         }).
         when('/photos/:AlbumID', {
-          template: '<photo-detail></photo-detail>'
+          template: '<photo-album></photo-album>'
         }).
         when('/photos/test', {
           template: '/test/test.html'
