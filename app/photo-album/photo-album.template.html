@@ -1,13 +1,25 @@
 
+<table border="0" width="100%">
+    <tr>
+        <td style="padding-left:10px" width="25%"><a href="index.html">Back</a></td>
+        <td style="text-align: center; font-size:15pt" width="25%">
+            <!-- {{photo.Album}} -->
+        </td>
+        <td width="25%">&nbsp;</td>
+    </tr>
+</table>
+
 <div class="photo-images">
     <img ng-src="{{photo.URL}}" class="photo"
         ng-class="{selected: photo.URL === $ctrl.mainImageUrl}"
         ng-repeat="photo in $ctrl.photos" />
   </div>
 
-<h1>{{$ctrl.photo.FileName}}</h1>
 
-<p>{{$ctrl.photo.Caption}}</p>
+<h1></h1>
+
+<!-- <h1>{{$ctrl.photo.FileName}}</h1> -->
+<!-- <p>{{$ctrl.photo.Caption}}</p> -->
 
 <ul class="photo-thumbs">
   <li ng-repeat="photo in $ctrl.photos">

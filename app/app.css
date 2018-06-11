@@ -1,10 +1,48 @@
 body {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #656565;
+  /* background-image: url(~/Images/background.gif);
+  background-repeat: repeat; */
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*text-align: center;*/
+  /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+  /*font-size: 0.7em;*/
+  color: #FFFFFF;
 }
+
+a {
+	text-decoration: none;
+	color: #DBB94F;
+}
+
+	a:visited {
+		color: #C19B28;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		color: #E6CD84;
+	}
+
+	a:active {
+		color: #C19B28;
+	}
+
 
 h1 {
   border-bottom: 1px solid gray;
   margin-top: 0;
+}
+
+h2 {
+  border-bottom: 1px solid gray;
+  margin-top: 0;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* View: photo list */
@@ -14,6 +52,7 @@ h1 {
 
 .photos li {
   clear: both;
+  background-color: #656565;
   height: 115px;
   padding-top: 15px;
 }
@@ -36,7 +75,7 @@ h1 {
 
 /* View: photo album */
 .photo {
-  background-color: white;
+  /* background-color: white; */
   display: none;
   float: left;
   /* height: 400px; */
@@ -51,7 +90,7 @@ h1 {
 }
 
 .photo-images {
-  background-color: white;
+  /* background-color: white; */
   float: left;
   height: 700px;
   overflow: hidden;
@@ -71,8 +110,8 @@ h1 {
 }
 
 .photo-thumbs li {
-  background-color: white;
-  border: 1px solid black;
+  /* background-color: white; */
+  border: 1px solid white;
   cursor: pointer;
   display: inline-block;
   margin: 1em;
